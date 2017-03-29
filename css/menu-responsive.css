@@ -1,0 +1,159 @@
+/*Menu */
+
+.logo-responsive img{
+  position: fixed;
+  padding-top: 12px;
+  width: 100px;
+  z-index: 100;
+}
+
+.menu-responsive{
+  /*background: white;
+  border-bottom: 2px solid black;
+-webkit-box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+  height: 100px;*/
+  width: 100%;
+  position:fixed;
+  z-index: 10;
+}
+
+.menu, .menu-bg, .menu-burger {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 100%;
+  right: 25px;
+  top: 20px;
+}
+
+.menu-bg {
+  background: white;
+  pointer-events: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  right: 50px;
+  top: 50px;
+  -webkit-transform: translate3d(50%, -50%, 0);
+          transform: translate3d(50%, -50%, 0);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.menu-bg.fs {
+  -webkit-transform: translate3d(50%, -50%, 0);
+          transform: translate3d(50%, -50%, 0);
+  width: 300vw;
+  height: 500vw;
+}
+
+.menu-burger {
+  color:#4f4d4f ;
+  padding-top: 5px;
+  -webkit-user-select: none;
+  cursor: pointer;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+.menu-burger.fs {
+  -webkit-transform: rotate(-180deg) translateY(10px);
+          transform: rotate(-180deg) translateY(10px);
+}
+
+.menu-items {
+  position: absolute;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 10px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin-top: 100px;
+  -webkit-transform: translateY(-200%);
+          transform: translateY(-200%);
+  pointer-events: none;
+}
+.menu-items div {
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+  margin-top: 0px;
+}
+.menu-items.fs {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  pointer-events: auto;
+  opacity: 1;
+}
+.menu-items.fs div {
+  opacity: 1;
+  margin-top: 2.5em;
+}
+
+.selccion-reto{
+  color: white;
+  text-decoration: none;
+}
+
+.selccion-reto:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 100px 50px;
+  line-height: 1.62em;
+  color: #444;
+}
+.content h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+/*chat & contacto*/
+
+.chat-fixed{
+  background: #363636;
+  border-top: 2px solid #000;
+  -webkit-box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.75);
+  bottom: 0;
+  height: 80px;
+  position:fixed;
+  width: 100%;
+  z-index: 8;
+}
+
+.logos-responsive{
+  text-align: center;
+}
+
+.logos-responsive img{
+  padding-top: 30px;
+  text-align: center;
+  width: 60px;
+}
+
+.logos-responsive2{
+  text-align: center;
+}
+
+.logos-responsive2 img{
+  padding-top:20px;
+  text-align: center;
+  width: 50px;
+}
+
+a:focus, a:hover {
+  color: white;
+  text-decoration: none;
+}
