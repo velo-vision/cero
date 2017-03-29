@@ -661,6 +661,7 @@ padding: 10px 0 10px !important;
 
 .numero {
 color: #00beff;
+display: inline-block;
 margin-left: 10px;
 }
 
