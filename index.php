@@ -28,7 +28,7 @@
 				<div class="row nomargin hide-on-large-only">
 					<div class="pleca-menu">
 						<div class="logo-menu logo-responsive">
-							<a href="index.html"><img width="150px;" src="images/logo.png" alt="EQ-Credit"></a>
+							<a href="index.php"><img width="150px;" src="images/logo.png" alt="EQ-Credit"></a>
 						</div>
 						<div class="overlay">
 						  <div class="link-wrapper">
@@ -68,7 +68,7 @@
 				<div class="row menu hide-on-small-only hide-on-med-only">
 					<div class="col l12 nopadding">
 						<div class="col l3 center logo-menu">
-							<a href="index.html"><img src="images/logo.png" alt="EQ-Credit"></a>
+							<a href="index.php"><img src="images/logo.png" alt="EQ-Credit"></a>
 						</div>
 						<div class="col l9 menu-eq">
 							<ul class="nomargin">
@@ -290,7 +290,7 @@
 				</div>
 				<div class="col l6 s12 nopadding">
 					<div class="Logo-border">
-						<img src="images/logo1.svg" alt="Eq-Credit">
+						<img src="images/logo-footer1.png" alt="Eq-Credit">
 					</div>
 					<div class="col l6 offset-l2 s10 offset-s1 texto-papalote">
 						<p class="nomargin">
@@ -449,7 +449,7 @@
 			</div>
 			<div class="row nomargin footer">
 				<div class="logo-footer">
-					<a href="index.html"><img src="images/logo-footer.png" alt="Logo Footer"></a>
+					<a href="index.php"><img src="images/logo-footer2.png" alt="Logo Footer"></a>
 				</div>
 			</div>
 		</footer>
