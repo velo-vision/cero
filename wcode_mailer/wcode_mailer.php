@@ -16,7 +16,7 @@ function wcode_mail($quien, $nombreQuien, $recibe, $nombreRecibe){
 
 		$mail->addAddress($recibe, $nombreRecibe);
 
-		$mail->Subject = 'Ing. Cuevas';
+		$mail->Subject = 'Desde Cero';
 
 		$mail->IsHTML(true);
 

@@ -4,11 +4,11 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta charset="utf-8">
-		<meta name="description" content="EQ Credit"/>
-		<meta name="keywords" content="EQ Credit"/>
+		<meta name="description" content="Desde Cero"/>
+		<meta name="keywords" content="Desde Cero"/>
 		<link rel="shortcut icon" href="images/favicon.ico"/>
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/animsition.css">
@@ -28,7 +28,7 @@
 				<div class="row nomargin hide-on-large-only">
 					<div class="pleca-menu">
 						<div class="logo-menu logo-responsive">
-							<a href="index.php"><img width="150px;" src="images/logo.png" alt="EQ-Credit"></a>
+							<a href="index.php"><img width="150px;" src="images/logo.png" alt="Desde Cero"></a>
 						</div>
 						<div class="overlay">
 						  <div class="link-wrapper">
@@ -68,7 +68,7 @@
 				<div class="row menu hide-on-small-only hide-on-med-only">
 					<div class="col l12 nopadding">
 						<div class="col l3 center logo-menu">
-							<a href="index.php"><img src="images/logo.png" alt="EQ-Credit"></a>
+							<a href="index.php"><img src="images/logo.png" alt="redit"></a>
 						</div>
 						<div class="col l9 menu-eq">
 							<ul class="nomargin">
@@ -290,7 +290,7 @@
 				</div>
 				<div class="col l6 s12 nopadding">
 					<div class="Logo-border">
-						<img src="images/logo-footer1.png" alt="Eq-Credit">
+						<img src="images/logo-footer1.png" alt="Desde Cero">
 					</div>
 					<div class="col l6 offset-l2 s10 offset-s1 texto-papalote">
 						<p class="nomargin">
@@ -426,7 +426,7 @@
 					</p>
 				</div>
 				<div class="col l6 s12">
-					<form id="contactopopup" class="top-form" action="" method="post">
+					<form id="contactopopup" class="top-form" action="mailfooter.php" method="post">
 			              <div class="col l11 s12 nopadding">
 			                  <input name="nombre" type="text" class="form-control" id="Name" placeholder="Nombre*" required>
 			              </div>
