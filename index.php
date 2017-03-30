@@ -1,3 +1,6 @@
+<?php
+ob_start("ob_gzhandler");
+?>
 <!DOCTYPE html>
 
 	<head>
@@ -8,7 +11,7 @@
 		<meta name="keywords" content="Desde Cero"/>
 		<link rel="shortcut icon" href="images/favicon.ico"/>
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/animsition.css">
@@ -28,18 +31,18 @@
 				<div class="row nomargin hide-on-large-only">
 					<div class="pleca-menu">
 						<div class="logo-menu logo-responsive">
-							<a href="index.php"><img width="150px;" src="images/logo.png" alt="Desde Cero"></a>
+							<a href="index.php"><img width="150px;" src="images/logo.png" alt="EQ-Credit"></a>
 						</div>
 						<div class="overlay">
 						  <div class="link-wrapper">
 						    <a class="close" href="#credit">
-						      <span>EQ CREDIT</span>
+						      <span>DESDE CERO</span>
 						    </a>
 						    <a class="close" href="#testimonios">
 						      <span>TESTIMONIOS</span>
 						    </a>
 						    <a class="close" href="#como">
-						      <span>¿cÓMO FUNCIONA?</span>
+						      <span>¿CÓMO FUNCIONA?</span>
 						    </a>
 						    <a class="close" href="#caracteristicas">
 						      <span>CARACTERÍSTICAS</span>
@@ -68,7 +71,7 @@
 				<div class="row menu hide-on-small-only hide-on-med-only">
 					<div class="col l12 nopadding">
 						<div class="col l3 center logo-menu">
-							<a href="index.php"><img src="images/logo.png" alt="redit"></a>
+							<a href="index.php"><img src="images/logo.png" alt="EQ-Credit"></a>
 						</div>
 						<div class="col l9 menu-eq">
 							<ul class="nomargin">
@@ -134,7 +137,7 @@
 						¡NO ESTAS SOLO!<span class="ayudarte"> déjanos ayudarte.</span>
 					</p>
 					<p class="texto-card" >
-						En EQ Credit queremos devolverte la tranquilidad y liberarte de deudas.
+						En Desde Cero queremos devolverte la tranquilidad y liberarte de deudas.
 						<b>¡Despreocúpate!</b> Nuestro equipo de expertos está listo para ayudarte, pide una asesoría
 						GRATUITA a cerca de tu situación financiera y déjanos asesorarte.
 					</p>
@@ -160,7 +163,7 @@
 									</p>
 									<p class="texto-testimonio">
 										<b>Las tarjetas de crédito se hacen para mantenerse en la deuda</b> y  al pago de las compañías de tarjetas de crédito, siempre y cuando sea posible.
-	 									No estamos de acuerdo con eso. Hemos diseñado <b>EQ Credit para ser personalizado por usted y le ayudará a pagar sus tarjetas de crédito más rápido.</b>
+	 									No estamos de acuerdo con eso. Hemos diseñado <b>Desde Cero para ser personalizado por usted y le ayudará a pagar sus tarjetas de crédito más rápido.</b>
 									</p>
 								</div>
 								<div class="col l4 offset-l1 m10 offset-m1 offset-m1 s10 offset-s1">
@@ -199,7 +202,7 @@
 									</p>
 									<p class="texto-testimonio">
 										<b>Las tarjetas de crédito se hacen para mantenerse en la deuda</b> y  al pago de las compañías de tarjetas de crédito, siempre y cuando sea posible.
-	 									No estamos de acuerdo con eso. Hemos diseñado <b>EQ Credit para ser personalizado por usted y le ayudará a pagar sus tarjetas de crédito más rápido.</b>
+	 									No estamos de acuerdo con eso. Hemos diseñado <b>Desde Cero para ser personalizado por usted y le ayudará a pagar sus tarjetas de crédito más rápido.</b>
 									</p>
 								</div>
 								<div class="col l4 offset-l1 m10 offset-m1 offset-m1 s10 offset-s1">
@@ -290,7 +293,7 @@
 				</div>
 				<div class="col l6 s12 nopadding">
 					<div class="Logo-border">
-						<img src="images/logo-footer1.png" alt="Desde Cero">
+						<img src="images/logo-footer1.png" alt="Eq-Credit">
 					</div>
 					<div class="col l6 offset-l2 s10 offset-s1 texto-papalote">
 						<p class="nomargin">
@@ -322,8 +325,8 @@
 							<div class="col s12 nopadding">
 								<img src="images/paloma.png" alt="Biñeta"> <span class="title-beneficios">Trato personalizado</span>
 								<p class="beneficios">
-									Acércate para conocer tu situación REAL
-									y cómo podemos mejorarla juntos
+									Entendemos que cada situación es distinta,
+									por eso queremos escucharte...
 								</p>
 							</div>
 						</div>
@@ -331,15 +334,13 @@
 							<div class="col s12 ">
 								<img src="images/paloma.png" alt="Biñeta"> <span class="title-beneficios">Fin a tus deudas</span>
 								<p class="beneficios">
-									Acércate para conocer tu situación REAL
-									y cómo podemos mejorarla juntos
+									Reduce el plazo y el monto de tus pagos.
 								</p>
 							</div>
 							<div class="col s12 ">
 								<img src="images/paloma.png" alt="Biñeta"> <span class="title-beneficios">¡Sin letras chiquititas ni mensajes ocultos!</span>
 								<p class="beneficios">
-									Acércate para conocer tu situación REAL
-									y cómo podemos mejorarla juntos
+									Conoce lo que realmente estás pagando
 								</p>
 							</div>
 						</div>
@@ -409,11 +410,11 @@
 						Contáctanos
 					</p>
 					<p class="texto-contacto">
-						¿Quieres saber más? El Equipo de EQ tiene su sede
+						¿Quieres saber más? El Equipo Desde Cero tiene su sede
 						en la Ciudad de México y está listo para ayudar:
 					</p>
 					<p class="phone">
-						<i class="fa fa-phone" aria-hidden="true"></i> Habla con un asesor de miembros: <span class="numero">14508799</span><span class="numero">01-800-1103567</span>
+						<i class="fa fa-phone" aria-hidden="true"></i> Habla con un asesor: <span class="numero">14508799</span><span class="numero">01-800-1103567</span>
 					</p>
 					<p class="phone">
 						<i class="fa fa-envelope" aria-hidden="true"></i>Envíenos un correo electrónico: <span class="numero">hola@dcero.mx</span>
@@ -437,7 +438,7 @@
 			                  <textarea name="mensaje" class="form-control" rows="8" id="Message" placeholder="Mensaje*" required></textarea>
 			              </div>
 			              <div class="col l11 s12">
-			                <button type="submit" id="" class="btn-contacto"><E>Enviar</E></button>
+			                <input type="submit" id="" class="btn-contacto"><E>Enviar</E>
 			              </div>
 			          </form>
 				</div>
@@ -460,5 +461,6 @@
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNTSMEOij97Zpc3vSSkP1pXOIWg8tH-gA&sensor=false"></script>
 		<script src="js/maps.js"></script>
 		<script src="js/cero.js"></script>
+		<?php // include("mailfooter.php"); ?>
 	</body>
 </html>
