@@ -1055,6 +1055,8 @@ padding-top: 100px !important;
   }
 
   .Modern-Slider .PrevArrow {
+    -webkit-width: 30px; /* Chrome, Safari, Opera */
+    -moz-width: 30px; /* Firefox */
     width: 30px;
   }
 

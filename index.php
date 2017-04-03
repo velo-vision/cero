@@ -11,7 +11,7 @@ ob_start("ob_gzhandler");
 		<meta name="keywords" content="Desde Cero"/>
 		<link rel="shortcut icon" href="images/favicon.ico"/>
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/animsition.css">
@@ -417,7 +417,7 @@ ob_start("ob_gzhandler");
 						<i class="fa fa-phone" aria-hidden="true"></i> Habla con un asesor: <span class="numero">14508799</span><span class="numero">01-800-1103567</span>
 					</p>
 					<p class="phone">
-						<i class="fa fa-envelope" aria-hidden="true"></i>Envíenos un correo electrónico: <span class="numero">hola@dcero.mx</span>
+						<i class="fa fa-envelope" aria-hidden="true"></i>Envíanos un correo electrónico: <span class="numero">hola@dcero.mx</span>
 					</p>
 					<p class="direccion top-direccion">
 						<i class="fa fa-map-marker" aria-hidden="true"></i>Dirección: Av. Horacio 340 Piso 2,
@@ -438,7 +438,7 @@ ob_start("ob_gzhandler");
 			                  <textarea name="mensaje" class="form-control" rows="8" id="Message" placeholder="Mensaje*" required></textarea>
 			              </div>
 			              <div class="col l11 s12">
-			                <input type="submit" id="" class="btn-contacto"><E>Enviar</E>
+			                <input type="submit" id="" class="btn-contacto">Enviar
 			              </div>
 			          </form>
 				</div>
